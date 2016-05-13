@@ -13,7 +13,6 @@
 	background-color: #4aaaa5;
 	text-align: center;
 	color: white;
-	margin-left: 100px;
 	padding: 20px;
 	float: left;
 }
@@ -21,7 +20,6 @@
 #header-links{
 	float: right;
 	text-align: center;
-	margin-right: 100px;
 	padding-top: 25px;
 }	
 #header-links a{
@@ -37,6 +35,7 @@ h1, h2{
 	font-size: 26px;
 	font-weight: bold;
 	display: inline;
+	font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 p{
@@ -46,11 +45,15 @@ p{
 body{
 	min-width: 1160px;
 }
+.margins{
+	margin-left: 100px;
+	width: 960px;
+}
 
-#about-box{
+#main-box{
 	padding: 0px 20px 20px 20px;
 	background-color: white;
-	margin: 20px 20px 20px 100px;
+	margin: 20px 20px 20px 0px;
 	float: left;
 	width: 650px;
 	overflow: auto;
@@ -73,8 +76,8 @@ body{
 	padding: 0px 20px 20px 20px;
 	background-color: white;
 	float: right;
-	margin: 20px 0px 20px 10px;
-	margin-right: 100px;
+	margin: 20px 0px 20px 0px;
+
 }
 
 #connect-heading{
@@ -111,4 +114,42 @@ body{
 	border-top: solid;
 	border-color: #4aaaa5;
 	border-width: 7px;
+}
+
+.portfolio-images {
+	display: inline-block;
+	width: 50%;
+	position: relative;
+	text-align: center;
+	padding-bottom: 40px;
+	margin: -2px;
+}
+h3{
+	position: relative; 
+	position: absolute;
+	top: 170px;
+	width: 300px;
+	margin: 13px;
+	padding: 20px 0px 20px 0px;
+	color: white;
+	background-color: #4aaaa5;
+	opacity: 0.8;
+	font-size: 25px;
+}
+input{
+	width: 100%;
+	margin-top: 5px;
+	padding: 5px 0px 5px 0px;
+}
+#contact-message{
+	width: 100%;
+	overflow: auto;
+	margin-top: 5px;
+	padding: 5px 0px 5px 0px;
+}
+#submit{
+	background-color: #4aaaa5;
+	padding: 10px 20px 10px 20px;
+	border-style: none;
+	color: white;
 }
